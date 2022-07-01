@@ -1,0 +1,9 @@
+#root
+{
+    --primary-box-shadow:rgb(28 28 28 / 8%) 0px 2px 8px;
+    --primary-white-color:rgb(232, 232, 232);
+    --primary-bg-color:rgb(255, 255, 255);
+    --primary-gray-color:rgb(141,141,141);
+    --gray-color:rgb(141,141,141);
+    --red-color:red
+}
