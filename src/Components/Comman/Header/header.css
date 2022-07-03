@@ -20,7 +20,7 @@
 .header-location-search-bar
 {
     display: flex;
-    height: 3.4rem;
+    height: 2.8rem;
     width: 70%;
     align-items: center;
     border-radius: 0.4rem;
@@ -49,4 +49,35 @@
 .serch-bar-sperater{
     height: 30px;
     border: 0.5px solid var(--gray-color);
+}
+.search-bar-wraper{
+    display: flex;
+    flex: 2;
+}
+.search-icon{
+    font-size: 20px;
+    color: var(--primary-gray-color);
+    margin-left: 8px;
+}
+.input-txt-box{
+    border: none;
+    outline: none;
+    font-size: 16px;
+    width: 100%;
+    margin-left: 8px;
+}
+
+.profile-wraper{
+    display: flex;
+    justify-content: space-between;
+    width: 22%;
+    align-items: center;
+}
+.profile-image{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.down-errow{
+    font-size: 20px;
 }

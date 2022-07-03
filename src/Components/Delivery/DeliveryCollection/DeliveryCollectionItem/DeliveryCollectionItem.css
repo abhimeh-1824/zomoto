@@ -1,0 +1,22 @@
+.delivery-collection-item-image-wrap{
+    width: 260px;
+    height: 190px;
+    /* background-color: var( --primary-bg-color); */
+    border-radius: 50%;
+}
+.deliver-collection-item-image{
+    object-fit: cover;
+    height: 100%;
+    width: 70%;
+    border-radius: 50%;
+    margin: auto;
+    box-shadow: var(--delivery-collection-item-shadow);
+}
+.deliver-collection-item-title{
+    font-size: 20px;
+    font-weight: 500;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 1rem;
+}

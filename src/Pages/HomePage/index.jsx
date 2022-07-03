@@ -1,18 +1,21 @@
 import React, { useState } from "react";
-import Footer from "../../Components/Footer/Footer";
-import Header from "../../Components/Header/Header";
-import Tabs from "../../Components/Tabs/Tabs";
+import Footer from "../../Components/Comman/Footer/Footer";
+import Header from "../../Components/Comman/Header/Header";
+import Tabs from "../../Components/Comman/Tabs/Tabs";
+import Delivery from "../../Components/Delivery/Delivery";
+import DiningOut from "../../Components/DiningOut/DiningOut";
+import Nightlife from "../../Components/Nightlife/Nightlife";
 
 const HomePage = () => {
-  const [tapPage, setTabPage] = useState("Dinig Out");
+  const [tapPage, setTabPage] = useState("Delivery");
   const getClickTabPage = (tapPage) => {
     switch (tapPage) {
       case "Delivery":
-        return <div>Delivery</div>;
-      case "Dinig Out":
-        return <div>Dinig Out</div>;
-      case "Nighlife":
-        return <div>Delivery</div>;
+        return <Delivery />
+      case "Dining Out":
+        return <DiningOut />
+      case "Nightlife":
+        return <Nightlife />;
       default:
         <div>Delivery</div>;
     }
@@ -20,7 +23,7 @@ const HomePage = () => {
   return (
     <div>
       <Header />
-      <Tabs />
+      <Tabs tapPage={tapPage} setTabPage={setTabPage}/>
 
       {/* diffrent diffrent tabs pages */}
       {getClickTabPage(tapPage)}

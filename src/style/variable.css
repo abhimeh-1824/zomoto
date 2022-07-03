@@ -5,5 +5,9 @@
     --primary-bg-color:rgb(255, 255, 255);
     --primary-gray-color:rgb(141,141,141);
     --gray-color:rgb(141,141,141);
-    --red-color:red
+    --red-color:red;
+    --whilte-color:white;
+    --collection-title-color:rgb(47,47,47);
+    --delivery-collection-item-shadow:rgb(0 0 0 / 8%) 0px 3px 12px;
+    --delivery-collection-bg:rgb(248,248,248)
 }

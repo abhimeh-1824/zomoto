@@ -1,0 +1,5 @@
+.delivery-collection-wraper{
+    background-color: var(--delivery-collection-bg);
+    width: 100%;
+    padding: 40px 0;
+}

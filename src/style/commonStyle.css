@@ -6,4 +6,19 @@
 .absolute-center{
     display: flex;
     align-items: center;
+    justify-content: center;
+}
+
+.collection-title{
+    font-size: 30px;
+    color: var(--collection-title-color);
+    margin-bottom: 32px;
+    font-weight: 500;
+}
+.slick-next:before,.slick-prev:before {
+    font-size: 25px;
+    line-height: 1;
+    opacity: .75;
+    color: black;
+    background-color: white;
 }
