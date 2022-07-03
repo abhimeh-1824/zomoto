@@ -64,7 +64,7 @@ const TopBrands = () => {
         <div className='collection-title'>This is TopBrands</div>
         <Slider {...settings}>
             {topDeliveryItem.map((item)=>{
-                    return <div>
+                    return <div key={item.id}>
                         <div className="top-brands-cover">
                             <img src={item.cover} alt={item.time} className="top-brands-image" />
                             <span className='top-brands-time'>{item.time}</span>

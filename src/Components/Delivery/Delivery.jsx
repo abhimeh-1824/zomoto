@@ -6,6 +6,7 @@ import {FiChevronDown} from "react-icons/fi"
 import DeliveryCollection from './DeliveryCollection/DeliveryCollection'
 import TopBrands from './TopBrands/TopBrands'
 import ExploreItems from './ExploreAllItems/ExploreItems'
+import { deleviryhomeData } from './deleveryData'
 
 const Delivery = () => {
 
@@ -48,7 +49,7 @@ const Delivery = () => {
       </div>
       <DeliveryCollection />
       <TopBrands />
-     <ExploreItems />
+     <ExploreItems recepisData={deleviryhomeData} collectionItem="Delivery Restaurants in Indore"/>
     </div>
   )
 }

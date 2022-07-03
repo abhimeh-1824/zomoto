@@ -1,0 +1,77 @@
+.explore-card {
+    margin: 12px 0px 24px 0px;
+    padding: 18px;
+    border-radius: 15px;
+    border: 1px solid transparent;
+    width: 320px;
+}
+.explore-card-image-cover{
+    height: 240px;
+    width: 100%;
+    border-radius: 15px;
+    position: relative;
+}
+.explore-card-image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.discount{
+    position: absolute;
+    left: 0px;
+    bottom: 14px;
+    background-color: blue;
+    color: var(--primary-bg-color);
+    font-size: 14px;
+    padding: 0px 6px;
+    border-radius: 0px 2px 2px 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 18px;
+    font-weight: 500;
+}
+.res-row{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px 6px;
+}
+
+.res-name
+{
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--collection-title-color);
+}
+.res-rating{
+    padding: 0px 8px;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--primary-bg-color);
+    border-radius: 6px;
+    height: 24px;
+    background-color: green;
+    margin-top: 5px;
+}
+.star-icon{
+    font-size: 18px;
+    margin-left: 2px;
+}
+.res-dish-type{
+    font-size: 14px;
+    text-overflow: initial;
+    width: 70%;
+    height: 20px;
+    overflow: hidden;
+}
+.res-dish-price{
+    font-size: 14px;
+    text-overflow: ellipsis;
+}
+.explore-card:hover{
+    background-color: white;
+    border: 1px solid rgb(187, 186, 186);
+}
